@@ -1,0 +1,59 @@
+! Blurb file created by Inform build 6M62
+
+status "D:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.inform"
+release to "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "The Dragon's Jewel.gblorb"
+storyfile "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.inform\Build\output.ulx" include
+ifiction "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.inform\Metadata.iFiction" include
+cover "D:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "D:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "D:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "D:\Program Files (x86)\Inform 7\Internal\Miscellany\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "4FAE1B92-B8C9-4E7E-962A-CDD394A67D43"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2023"
+placeholder [TITLE] = "The Dragon's Jewel"
+placeholder [AUTHOR] = "Tomislav Hlevnjak"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+auxiliary "D:\Program Files (x86)\Inform 7\Internal\Miscellany\IntroductionToIF.pdf" "Introduction to IF" "--"
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "The Dragon's Jewel.gblorb.js"
+template path "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.materials\Templates"
+template path "C:\Users\Tomislav Hlevnjak\Documents\Inform\Templates"
+template path "D:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.inform\Build\output.ulx" to "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.materials\Release\interpreter\The Dragon's Jewel.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\Tomislav Hlevnjak\Documents\Inform\Projects\The Dragon's Jewel.materials\Templates"
+template path "C:\Users\Tomislav Hlevnjak\Documents\Inform\Templates"
+template path "D:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
